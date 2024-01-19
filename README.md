@@ -36,7 +36,7 @@
    
 #### Without Docker
 1. Clone or download the repo
-2. Download and install [Composer]()
+2. Download and install [Composer](https://getcomposer.org/download/)
 3. Install Laravel:
 	```sh
 	composer global require "laravel/installer=~1.1"
