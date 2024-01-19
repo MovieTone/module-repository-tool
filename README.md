@@ -7,7 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Using Docker
+
+Download or clone the project
+Install Docker Desktop
+Navigate to the root directory of the project and run the following commands in this order:
+docker build -t module-repository-tool .
+docker-compose up --build
+
+To migrate the database:
+docker exec -it php bash
+And in the same console:
+php artisan migrate
+
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
